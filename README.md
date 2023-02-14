@@ -28,10 +28,10 @@ $compress = new Compress\Compress;
 $compress::compressFile($filePath, $storePath, $options = []);
 
 //Compress Image file
-$compress::compressFile(__DIR__.'/image.png', __DIR__.'/image.txt'));
+$compress::compressFile(__DIR__.'/image.png', __DIR__.'/image.txt');
 
 // Compress PDF
-$compress::compressFile(__DIR__.'/file.pdf', __DIR__.'/file.txt', true));
+$compress::compressFile(__DIR__.'/file.pdf', __DIR__.'/file.txt', true);
 //Compress as lot of files you want including zip files
 
 /**
